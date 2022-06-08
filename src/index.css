@@ -12,3 +12,6 @@
     visibility: visible;
     opacity: 1;
 }
+.content-wrapper{
+    height: 100vh;
+}

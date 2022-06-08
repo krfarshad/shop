@@ -3,7 +3,7 @@ import TitleProduct from "./TitleProduct";
 import Price from "./Price";
  function CardProduct({ Productdata }) {
   return (
-    <article className="product-item h-[420px] overflow-hidden rounded-md border-1 border-gray-100
+    <article className="product-item h-[420px] overflow-hidden  200 rounded-md border border-gray-200
      bg-white shadow-md shadow-gray-200 mb-2 hover:shadow-lg transition-all ease-linear hover:-translate-y-2">
       <div className="product-inner">
         {/* image */}

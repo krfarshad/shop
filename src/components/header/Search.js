@@ -36,7 +36,7 @@ function Search() {
             focus:oultine-none  " type="search" placeholder="search ..." onChange={handleSearchInput} />
             <div className={`search-wrapper shadow-sm shadow-gray-200 p-2 rounded-lg absolute left-8 -bottom-12
              w-full md:w-96 bg-white opacity-0 hidden transition-all ease-linear ${search ? 'active-search' : ''} `}>
-                result
+                reseul
             </div>
         </>
     )
