@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.active_btn{
+    background: #fff;
+    border-radius: 50%;
+    color: #36e178;
+}
+
+.active-search{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
