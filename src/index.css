@@ -15,3 +15,6 @@
 .content-wrapper{
     height: 100vh;
 }
+nav .active{
+    color: #36e178;
+}
