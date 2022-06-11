@@ -1,5 +1,5 @@
 // import ProductsData from "../../Data/ProductsData";
-import CardProduct from "../card-product/CardProduct";
+import CardProduct from "./card-product/CardProduct";
 import React, { useState, useEffect } from "react";
 function Shop() {
   const [ProductsData, setProductsData] = useState([]);
@@ -7,12 +7,11 @@ function Shop() {
     fetch("https://fakestoreapi.com/products/")
       .then((response) => response.json())
       .then((data) =>{
-        console.log(data)
         setProductsData(data)
       });
   }, []);
   return (
-    <main className="product-wrapper py-20 dark:bg-slate-800" >
+    <main className="product-wrapper py-20 " >
       <div className="container mx-auto px-8  max-w-[1200px] mb-6">
          
       </div>
