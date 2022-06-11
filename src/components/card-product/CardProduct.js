@@ -7,9 +7,9 @@ import Price from "./Price";
      bg-white shadow-md shadow-gray-200 mb-2 hover:shadow-lg transition-all ease-linear hover:-translate-y-2">
       <div className="product-inner">
         {/* image */}
-        <ImageProduct src={Productdata.image} alt={Productdata.title} />
+        <ImageProduct src={Productdata.image} alt={Productdata.title} id={Productdata.id} />
         {/* title */}
-        <TitleProduct title={Productdata.title} />
+        <TitleProduct title={Productdata.title} id={Productdata.id} />
         {/* footer */}
         <div className="product-footer text-right text-green">
           <Price cost={Productdata.price} />
@@ -18,5 +18,6 @@ import Price from "./Price";
     </article>
   );
 }
+
 
 export default CardProduct;

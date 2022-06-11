@@ -1,5 +1,5 @@
 import SwitchButton from "./switch-theme/SwitchButton";
-import Search from './Search';
+import Search from './search/Search';
 import Menu from "./menu/Menu";
 function Header() {
     return (
