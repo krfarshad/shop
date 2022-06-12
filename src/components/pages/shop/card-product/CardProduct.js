@@ -3,7 +3,6 @@ import TitleProduct from "./TitleProduct";
 import Category from './Category';
 import Price from "./Price";
  function CardProduct({ Productdata }) {
-  console.log(Productdata)
   return (
     <article className="product-item h-[420px] overflow-hidden  200 rounded-md border border-gray-200
      bg-white shadow-md shadow-gray-200 mb-2 hover:shadow-lg transition-all ease-linear hover:-translate-y-2">
