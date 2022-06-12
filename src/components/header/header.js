@@ -4,7 +4,7 @@ import Menu from "./menu/Menu";
 function Header() {
     return (
         <>
-            <header className="shadow-md shadow-gray-200 py-6 dark:bg-slate-900">
+            <header className="shadow-md shadow-gray-200 dark:shadow-none py-6 dark:bg-slate-900">
                 <div className="container max-w-[1200px] mx-auto px-8 flex relative">
                         <div className="w-2/5 logo">
                             <Search />
